@@ -14,6 +14,7 @@ namespace CRUD_Application.Services
         public EmployeeManagement(ApplicationDbContext _context)
         {
             this._context = _context;
+            
         }
 
         public async Task<List<Employee>> EmployeeAll()

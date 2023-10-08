@@ -10,5 +10,6 @@ namespace CRUD_Application.Context
 
         }
         public DbSet<Employee> Employees { get; set; }
+        public DbSet<Student> Students { get; set; }
     }
 }

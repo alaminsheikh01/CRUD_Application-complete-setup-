@@ -12,6 +12,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddTransient<IEmployeeManagement, EmployeeManagement>();
+builder.Services.AddTransient<IStudentManagement, StudentManagement>();
 
 // connect with database sql server
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
